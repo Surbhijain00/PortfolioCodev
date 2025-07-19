@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import "tailwindcss";
+
+@theme {
+    --font-mulish : "Mulish", serif;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #0A0A0E;
+    color: #FAFAFA;
+}
+
+.black-bg {
+    background-color: #0A0A0E;
+}
+
+.text-shadow-blue {
+    text-shadow: 1px 1px 5px #3B82F6;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
